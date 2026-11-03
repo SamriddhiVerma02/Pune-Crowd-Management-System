@@ -1,0 +1,36 @@
+# Python
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pt
+
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Uploaded videos and generated files
+uploads/*
+backend/uploads/*
+!uploads/.gitkeep
+!backend/uploads/.gitkeep
+
+# Temporary files
+backend/cv_check.json
